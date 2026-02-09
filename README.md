@@ -1,6 +1,6 @@
 # Redeemer
 
-✅ Pops up the Steam product activation webpage when copying keys from any website.  <br>
+✅ Pops up the Steam product activation webpage when copying Steam keys from any website.  <br>
 ✅ Does not require Steam to be installed.  <br>
 ✅ Works everywhere on the web.
 ##
