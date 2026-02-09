@@ -5,4 +5,4 @@ Does not require Steam to be installed!
 Works everywhere on the web!
 
 ## ⚡ One-Click Install
-👉 **[Install Redeemer.user.js](https://github.com/psydex/TheRedeemer/raw/refs/heads/master/Redeemer.user.js)**
+👉 **[Install Redeemer](https://github.com/psydex/TheRedeemer/raw/refs/heads/master/Redeemer.user.js)**
