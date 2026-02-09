@@ -6,8 +6,8 @@
 // @version     2.3
 // @grant       none
 // @homepageURL https://github.com/psydex/Redeemer/
-// @downloadURL https://github.com/psydex/TheRedeemer/raw/refs/heads/master/Redeemer.user.js
-// @updateURL   https://github.com/psydex/TheRedeemer/raw/refs/heads/master/Redeemer.user.js
+// @downloadURL https://github.com/psydex/Redeemer/raw/refs/heads/master/Redeemer.user.js
+// @updateURL   https://github.com/psydex/Redeemer/raw/refs/heads/master/Redeemer.user.js
 // ==/UserScript==
 (function() {
 	"use strict";
