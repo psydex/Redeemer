@@ -10,33 +10,13 @@
 // @downloadURL https://github.com/psydex/Redeemer/raw/refs/heads/master/Redeemer.user.js
 // @updateURL   https://github.com/psydex/Redeemer/raw/refs/heads/master/Redeemer.user.js
 // ==/UserScript==
-
-(function () {
-    "use strict";
-
-    function activateProduct(e) {
-
-        let productKey =
-            (e.clipboardData && e.clipboardData.getData("text")) ||
-            window.getSelection().toString() ||
-            (e.target && e.target.value) ||
-            "";
-
-        productKey = productKey.trim();
-
-        if (!productKey) return;
-
-        // Steam key format: XXXXX-XXXXX-XXXXX
-        if (/^[A-Z0-9]{5}(-[A-Z0-9]{5}){2}$/i.test(productKey)) {
-
-            const url =
-                "https://store.steampowered.com/account/registerkey?key=" +
-                encodeURIComponent(productKey);
-
-            window.open(url, "_blank", "noopener,noreferrer");
-        }
-    }
-
-    window.addEventListener("copy", activateProduct, false);
-
-})();
+(function() {
+	"use strict";
+	var activateProduct = function(e) {
+		var productKey = window.getSelection().toString().trim() || e.target.value;
+		if (/^[\d\w]{2,5}(\-[\d\w]{4,5}){2,4}$/.test(productKey)) {
+			window.open("https://store.steampowered.com/account/registerkey?key=" + productKey);
+		}
+	};
+	window.addEventListener("copy", activateProduct, false);
+}());
