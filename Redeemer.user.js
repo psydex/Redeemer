@@ -2,6 +2,7 @@
 // @name        Redeemer
 // @namespace   psydex
 // @description Pops up the Steam product activation webpage when copying keys from any website. Does not require Steam to be installed!
+// @author      psydex
 // @include     *
 // @match       *://*/*
 // @version     2.5
